@@ -1,2 +1,7 @@
-package com.example.team21;public class Star {
+package com.example.team21;
+
+public class Star extends Shape{
+    public Star(Integer x, Integer y) {
+        super(x, y);
+    }
 }
